@@ -40,7 +40,9 @@ Route::middleware('auth')->group(function () {
     Route::get('inventario/listaBajas','InventarioController@listaBajas');
 
 
-    Route::resource('mantenimientos','MantenimientoController');
+    Route::get('mantenimientos/contratos','MantenimientoController@contratos');
+    Route::get('mantenimientos/agenda','MantenimientoController@agenda');
+
 
     Route::resource('ventas','VentaController');
 

@@ -6,18 +6,14 @@ use Illuminate\Http\Request;
 
 class MantenimientoController extends Controller
 {
-    public function index()
+    public function contratos()
     {
-        return view('vistas.proveedores.index');
+        return view('vistas.mantenimiento.contratos');
     }
 
-    public function create()
+    public function agenda()
     {
-        return view('vistas.proveedores.create');
+        return view('vistas.mantenimiento.agenda');
     }
 
-    public function edit($id)
-    {
-        return view('vistas.proveedores.edit');
-    }
 }

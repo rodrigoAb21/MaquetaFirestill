@@ -5,9 +5,9 @@
             <div class="card">
                 <div class="card-body">
                     <h2 class="pb-2">
-                        Proveedores
+                        Contratos
                         <div class="float-right">
-                            <a class="btn btn-success" href="{{url('proveedores/create')}}">
+                            <a class="btn btn-success" href="{{url('mantenimientos/nuevoContrato')}}">
                                 <i class="fa fa-plus"></i>  Nuevo
                             </a>
                         </div>
@@ -18,30 +18,22 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>NOMBRE</th>
-                                <th>NIT</th>
-                                <th>TELEFONO</th>
-                                <th>DIRECCION</th>
-                                <th>INFO.</th>
+                                <th>CLIENTE</th>
+                                <th>F. INICIO</th>
+                                <th>F. FIN</th>
                                 <th class="text-center w-25">OPC</th>
                             </tr>
                             </thead>
                             <tbody>
-
                             <tr>
                                 <td>1</td>
-                                <td>Fanacim</td>
-                                <td>16546165465</td>
-                                <td>79896598</td>
-                                <td>Doble via Km9 #342</td>
-                                <td> Vendedor de extintores </td>
-
+                                <td>YPFB</td>
+                                <td>01-ABR-2020</td>
+                                <td>05-OCT-2021</td>
                                 <td class="text-center">
-
-                                        <button class="btn btn-warning">
-                                            <i class="fa fa-pen"></i>
-                                        </button>
-
+                                    <button class="btn btn-info">
+                                        <i class="fa fa-eye"></i>
+                                    </button>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -50,23 +42,17 @@
                             <tr>
                                 <td>2</td>
                                 <td>Telchi</td>
-                                <td>16051215462</td>
-                                <td>33525614</td>
-                                <td>2do anillo y Cristo Redentor</td>
-                                <td> Distribuidor de quimicos </td>
-
+                                <td>12-ABR-2020</td>
+                                <td>25-OCT-2021</td>
                                 <td class="text-center">
-
-                                        <button class="btn btn-warning">
-                                            <i class="fa fa-pen"></i>
-                                        </button>
-
+                                    <button class="btn btn-info">
+                                        <i class="fa fa-eye"></i>
+                                    </button>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
-
                             </tbody>
                         </table>
 
