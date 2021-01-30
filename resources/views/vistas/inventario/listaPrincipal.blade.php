@@ -5,7 +5,7 @@
             <div class="card">
                 <div class="card-body">
                     <h2 class="pb-2">
-                        Iventario de Productos
+                        Inventario de Productos
                         <div class="float-right">
 
                         </div>
@@ -29,9 +29,9 @@
 
                             <tr>
                                 <td>1</td>
-                                <td>Llave combinada 12</td>
-                                <td>Disponible</td>
-                                <td>FERROTODO</td>
+                                <td>Producto 1/td>
+                                <td>Categoria 2</td>
+                                <td>Proveedor 1</td>
                                 <td>20 Bs</td>
 
 

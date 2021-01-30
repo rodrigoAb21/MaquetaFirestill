@@ -8,7 +8,7 @@
                         Categorias
                         <div class="float-right">
                             <a class="btn btn-success" href="{{url('categorias/create')}}">
-                                <i class="fa fa-plus"></i>  Nuevo
+                                <i class="fa fa-plus"></i>  Nueva
                             </a>
                         </div>
                     </h2>

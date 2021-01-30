@@ -15,6 +15,11 @@
     <link href="{{asset('plantilla/material/css/style.css')}}" rel="stylesheet">
     <!-- You can change the theme colors from here -->
     <link href="{{asset('plantilla/material/css/colors/blue-dark.css')}}" id="theme" rel="stylesheet">
+    <style rel="stylesheet">
+        td{
+            white-space: nowrap;
+        }
+    </style>
     @stack('arriba')
 </head>
 
@@ -111,10 +116,10 @@
 
 
 
-                        <li class="{{ Request::is('personal*') ? 'nav-item active' : 'nav-item' }}">
-                            <a href="{{url('personal')}}" >
+                        <li class="{{ Request::is('empleados*') ? 'nav-item active' : 'nav-item' }}">
+                            <a href="{{url('empleados')}}" >
 
-                                <span class="hide-menu"> Personal</span>
+                                <span class="hide-menu"> Empleados</span>
                             </a>
                         </li>
 

@@ -6,7 +6,7 @@
             <div class="card">
                 <div class="card-body">
                     <h3 class="pb-2">
-                        Nuevo personal
+                        Nuevo empleado
                     </h3>
 
                         <div class="row">
@@ -71,8 +71,8 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="{{url('personal')}}" class="btn btn-warning">Atras</a>
-                        <a href="{{url('personal')}}" class="btn btn-success">Guardar</a>
+                        <a href="{{url('empleados')}}" class="btn btn-warning">Atras</a>
+                        <a href="{{url('empleados')}}" class="btn btn-success">Guardar</a>
 
 
                 </div>

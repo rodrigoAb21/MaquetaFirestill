@@ -8,11 +8,11 @@ class PersonalController extends Controller
 {
     public function index()
     {
-        return view('vistas.personal.index');
+        return view('vistas.empleados.index');
     }
 
     public function create()
     {
-        return view('vistas.personal.create');
+        return view('vistas.empleados.create');
     }
 }
