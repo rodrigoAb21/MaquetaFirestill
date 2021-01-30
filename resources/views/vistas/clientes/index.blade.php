@@ -29,32 +29,42 @@
 
                             <tr>
                                 <td>1</td>
-                                <td>Jose Saucedo</td>
-                                <td>8080808 LP</td>
+                                <td>Cliente 1</td>
+                                <td>8080808</td>
                                 <td>79896598</td>
                                 <td class="text-center">
-                                    <a href="{{url('clientes/1/edit')}}">
-                                        <button class="btn btn-warning">
-                                            <i class="fa fa-pen"></i>
+                                    <a href="{{url('clientes/1')}}">
+                                        <button class="btn btn-info">
+                                            <i class="fa fa-eye"></i>
                                         </button>
                                     </a>
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
+
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'clientes')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>MADISA SA</td>
-                                <td>1321654215</td>
-                                <td>73164545</td>
+                                <td>Cliente 2</td>
+                                <td>1028703022</td>
+                                <td>3359845</td>
 
                                 <td class="text-center">
-                                    <a href="{{url('clientes/1/edit')}}">
+                                    <a href="{{url('clientes/1')}}">
+                                        <button class="btn btn-info">
+                                            <i class="fa fa-eye"></i>
+                                        </button>
+                                    </a>
+
                                         <button class="btn btn-warning">
                                             <i class="fa fa-pen"></i>
                                         </button>
-                                    </a>
+
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'clientes')">
                                         <i class="fa fa-times"></i>
                                     </button>

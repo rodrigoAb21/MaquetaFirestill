@@ -17,4 +17,10 @@ class ClienteController extends Controller
         return view('vistas.clientes.create');
     }
 
+
+    public function show($id)
+    {
+        return view('vistas.clientes.show');
+    }
+
 }
