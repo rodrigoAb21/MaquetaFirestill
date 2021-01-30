@@ -44,10 +44,10 @@
                             <div class="form-group">
                                 <label>Producto</label>
                                 <select class="form-control selectpicker" data-live-search="true" id="selectorInsumo">
-                                    <option value="21343">Extintor 10L CO2</option>
-                                    <option value="21345">Manometro 3Bar</option>
-                                    <option value="11234">Manguera 1.5m</option>
-                                    <option value="33212">Precinto</option>
+                                    <option value="21343">21343 Extintor 10L CO2</option>
+                                    <option value="21345">45646 Manometro 3Bar</option>
+                                    <option value="11234">77885 Manguera 1.5m</option>
+                                    <option value="33212">55521 Precinto</option>
                                 </select>
                             </div>
                         </div>

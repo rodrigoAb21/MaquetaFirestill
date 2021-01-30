@@ -22,4 +22,9 @@ class ProveedorController extends Controller
         return view('vistas.proveedores.edit');
     }
 
+    public function show($id)
+    {
+        return view('vistas.proveedores.show');
+    }
+
 }

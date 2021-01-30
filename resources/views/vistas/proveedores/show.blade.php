@@ -6,16 +6,17 @@
             <div class="card">
                 <div class="card-body">
                     <h3 class="pb-2">
-                        Nuevo proveedor
+                        Ver proveedor
                     </h3>
 
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Nombre</label>
-                                <input required
+                                <label><n>Nombre</n></label>
+                                <input readonly
                                        type="text"
                                        class="form-control"
+                                       value="Proveedor 1"
                                        name="contacto">
                             </div>
                         </div>
@@ -24,16 +25,19 @@
                             <div class="form-group">
                                 <label>NIT</label>
                                 <input
+                                        value="789456213"
                                         type="text"
                                         class="form-control"
+                                        readonly
                                         name="celular">
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Email</label>
-                                <input required
+                                <input readonly
                                        type="email"
+                                       value="proveedor1@gmail.com"
                                        class="form-control"
                                        name="contacto">
                             </div>
@@ -41,8 +45,9 @@
                         <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Direccion</label>
-                                <input
+                                <input readonly
                                         type="text"
+                                       value="Direccion 1"
                                         class="form-control"
                                         name="tel_empresa">
                             </div>
@@ -51,9 +56,10 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Telefono</label>
-                                <input
+                                <input readonly
                                         type="text"
                                         class="form-control"
+                                       value="3505050"
                                         name="tel_empresa">
                             </div>
                         </div>
@@ -61,9 +67,10 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Informacion</label>
-                                <input
+                                <input readonly
                                         type="text"
                                         class="form-control"
+                                       value="Informacion proveedor 1"
                                         name="tel_empresa">
                             </div>
                         </div>
@@ -76,9 +83,10 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Titular</label>
-                                <input required
+                                <input readonly
                                        type="text"
                                        class="form-control"
+                                       value="Titular Proveedor 1"
                                        name="contacto">
                             </div>
                         </div>
@@ -86,9 +94,10 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Banco</label>
-                                <input
+                                <input readonly
                                         type="text"
                                         class="form-control"
+                                       value="Banco Union"
                                         name="celular">
                             </div>
                         </div>
@@ -96,27 +105,21 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Sucursal</label>
-                                <select class="form-control" name="" id="">
-                                    <option value="">La Paz</option>
-                                    <option value="">Oruro</option>
-                                    <option value="">Potosí</option>
-                                    <option value="">Cochabamba</option>
-                                    <option value="">Chuquisaca</option>
-                                    <option value="">Tarija</option>
-                                    <option value="">Pando</option>
-                                    <option value="">Beni</option>
-                                    <option value="">Santa Cruz</option>
-                                </select>
+                                <input readonly
+                                       type="text"
+                                       class="form-control"
+                                       value="Santa Cruz"
+                                       name="celular">
                             </div>
                         </div>
 
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Nro Cuenta</label>
-                                <input
+                                <input readonly
                                        type="text"
                                        class="form-control"
-
+                                       value="3124565"
                                        name="celular">
                             </div>
                         </div>
@@ -125,20 +128,21 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Moneda</label>
-                                <select class="form-control" name="" id="">
-                                    <option value="">Boliviano</option>
-                                    <option value="">Dolar</option>
-                                </select>
+                                <input readonly
+                                       type="text"
+                                       class="form-control"
+                                       value="Boliviano"
+                                       name="celular">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Tipo Identificación</label>
-                                <input
-                                       type="text"
-                                       class="form-control"
-
-                                       name="celular">
+                                <input readonly
+                                        type="text"
+                                        class="form-control"
+                                       value="NIT"
+                                        name="celular">
                             </div>
                         </div>
 
@@ -146,10 +150,10 @@
                         <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Nro Indentificacion</label>
-                                <input
+                                <input readonly
                                        type="text"
                                        class="form-control"
-
+                                       value="789456213"
                                        name="celular">
                             </div>
                         </div>
@@ -158,9 +162,6 @@
 
                     </div>
                     <a href="{{url('proveedores')}}" class="btn btn-warning">Atras</a>
-                    <a href="{{url('proveedores')}}" class="btn btn-success">Guardar</a>
-
-
                 </div>
             </div>
         </div>

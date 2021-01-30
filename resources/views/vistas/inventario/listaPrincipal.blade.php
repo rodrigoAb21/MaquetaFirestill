@@ -29,7 +29,7 @@
 
                             <tr>
                                 <td>1</td>
-                                <td>Producto 1/td>
+                                <td>Producto 1 </td>
                                 <td>Categoria 2</td>
                                 <td>Proveedor 1</td>
                                 <td>20 Bs</td>
@@ -47,11 +47,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>Llave Cruz</td>
-                                <td>Ocupada</td>
-                                <td>ANGLARIL</td>
-                                <td>45 Bs</td>
+                                <td>1</td>
+                                <td>Producto 1 </td>
+                                <td>Categoria 2</td>
+                                <td>Proveedor 1</td>
+                                <td>20 Bs</td>
 
 
                                 <td class="text-center">
@@ -66,11 +66,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>3</td>
-                                <td>Desaramador estrella</td>
-                                <td>Disponible</td>
-                                <td>AGSA</td>
-                                <td>10 Bs</td>
+                                <td>1</td>
+                                <td>Producto 1 </td>
+                                <td>Categoria 2</td>
+                                <td>Proveedor 1</td>
+                                <td>20 Bs</td>
 
 
                                 <td class="text-center">
@@ -84,6 +84,26 @@
                                     </button>
                                 </td>
                             </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Producto 1 </td>
+                                <td>Categoria 2</td>
+                                <td>Proveedor 1</td>
+                                <td>20 Bs</td>
+
+
+                                <td class="text-center">
+
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
 
                             </tbody>
                         </table>

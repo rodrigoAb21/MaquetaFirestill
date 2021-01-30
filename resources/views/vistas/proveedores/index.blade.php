@@ -17,12 +17,10 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>COD</th>
                                 <th>NOMBRE</th>
-                                <th>NIT</th>
                                 <th>TELEFONO</th>
-                                <th>DIRECCION</th>
-                                <th>INFO.</th>
+                                <th>EMAIL</th>
                                 <th class="text-center w-25">OPC</th>
                             </tr>
                             </thead>
@@ -30,37 +28,56 @@
 
                             <tr>
                                 <td>1</td>
-                                <td>Fanacim</td>
-                                <td>16546165465</td>
+                                <td>Proveedor 1</td>
                                 <td>79896598</td>
-                                <td>Doble via Km9 #342</td>
-                                <td> Vendedor de extintores </td>
-
+                                <td>proveedor1@mail.com</td>
                                 <td class="text-center">
-
-                                        <button class="btn btn-warning">
-                                            <i class="fa fa-pen"></i>
+                                    <a href="{{url('proveedores/1')}}">
+                                        <button class="btn btn-info">
+                                            <i class="fa fa-eye"></i>
                                         </button>
-
+                                    </a>
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
                             <tr>
-                                <td>2</td>
-                                <td>Telchi</td>
-                                <td>16051215462</td>
-                                <td>33525614</td>
-                                <td>2do anillo y Cristo Redentor</td>
-                                <td> Distribuidor de quimicos </td>
-
+                                <td>1</td>
+                                <td>Proveedor 2</td>
+                                <td>79896598</td>
+                                <td>proveedor2@mail.com</td>
                                 <td class="text-center">
-
-                                        <button class="btn btn-warning">
-                                            <i class="fa fa-pen"></i>
+                                    <a href="{{url('proveedores/1')}}">
+                                        <button class="btn btn-info">
+                                            <i class="fa fa-eye"></i>
                                         </button>
-
+                                    </a>
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Proveedor 3</td>
+                                <td>79896598</td>
+                                <td>proveedor3@mail.com</td>
+                                <td class="text-center">
+                                    <a href="{{url('proveedores/1')}}">
+                                        <button class="btn btn-info">
+                                            <i class="fa fa-eye"></i>
+                                        </button>
+                                    </a>
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
                                         <i class="fa fa-times"></i>
                                     </button>
