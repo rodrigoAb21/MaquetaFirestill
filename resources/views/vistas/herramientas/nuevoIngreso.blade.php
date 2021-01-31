@@ -12,7 +12,7 @@
 
                     {{csrf_field()}}
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
                                 <label>Fecha</label>
                                 <input required
@@ -22,8 +22,30 @@
                                        name="fecha">
                             </div>
                         </div>
-
-
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Factura</label>
+                                <input required
+                                       type="file"
+                                       class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Nro Factura</label>
+                                <input required
+                                       type="text"
+                                       class="form-control">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Tienda</label>
+                                <input required
+                                       type="text"
+                                       class="form-control">
+                            </div>
+                        </div>
                     </div>
                     <hr>
 
@@ -45,7 +67,7 @@
                                 <th class="text-right">OPC</th>
                                 <th class="text-center w-50">INSUMO</th>
                                 <th class="text-center">CANT</th>
-                                <th class="text-center">P. UNITARIO Bs</th>
+                                <th class="text-center">COSTO U. Bs</th>
                             </tr>
                             </thead>
                             <tbody id="detalle">

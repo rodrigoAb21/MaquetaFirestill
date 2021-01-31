@@ -7,7 +7,9 @@
                     <h2 class="pb-2">
                         Herramientas
                         <div class="float-right">
-
+                            <a class="btn btn-success" href="{{url('herramientas/nuevaHerramienta')}}">
+                                <i class="fa fa-plus"></i>  Nueva
+                            </a>
                         </div>
                     </h2>
 
@@ -15,24 +17,22 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>ID</th>
-                                <th>NOMBRE</th>
-                                <th>ESTADO</th>
-                                <th>COSTO</th>
-                                <th>OBSERVACION</th>
+                                <th class="text-center">COD</th>
+                                <th class="text-center">NOMBRE</th>
+                                <th class="text-center">TALLER</th>
+                                <th class="text-center">ASIGNADAS</th>
+                                <th class="text-center">TOTAL</th>
 
-                                <th class="text-center w-25">OPC</th>
+                                <th class="text-center">OPC</th>
                             </tr>
                             </thead>
                             <tbody>
-
-
-                            <tr>
+                            <tr class="text-center">
                                 <td>1</td>
                                 <td>Llave combinada 12</td>
-                                <td>Disponible</td>
-                                <td>20 Bs</td>
-                                <td>Oxidada</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>10</td>
 
 
                                 <td class="text-center">
@@ -46,12 +46,12 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>2</td>
                                 <td>Llave Cruz</td>
-                                <td>Ocupada</td>
-                                <td>45 Bs</td>
-                                <td>Ninguna</td>
+                                <td>2</td>
+                                <td>2</td>
+                                <td>4</td>
 
 
                                 <td class="text-center">
@@ -65,12 +65,12 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>3</td>
                                 <td>Desaramador estrella</td>
-                                <td>Disponible</td>
-                                <td>10 Bs</td>
-                                <td>Nuevo</td>
+                                <td>12</td>
+                                <td>0</td>
+                                <td>12</td>
 
 
                                 <td class="text-center">
@@ -104,9 +104,20 @@
                 </div>
                 <div class="modal-body">
                     <p id="modalEliminarEnunciado">¿Está seguro que desea dar de baja esta herramienta?</p>
+                    <div class="form-group">
+                        <label for="">Responsable de la baja</label>
+                        <select class="form-control" name="" id="">
+                            <option value="">Empleado 1</option>
+                            <option value="">Empleado 2</option>
+                            <option value="">Empleado 3</option>
+                            <option value="">Empleado 4</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Motivo</label>
+                        <textarea class="form-control" name="" id="" cols="30" rows="3" placeholder="Motivo de la baja"></textarea>
+                    </div>
 
-
-                    <textarea class="form-control" name="" id="" cols="30" rows="3" placeholder="Motivo de la baja"></textarea>
                     <br>
                     <button type="button" data-dismiss="modal" class="btn btn-danger">Eliminar</button>
                 </div>

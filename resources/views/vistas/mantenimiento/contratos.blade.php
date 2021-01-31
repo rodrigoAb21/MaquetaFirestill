@@ -17,7 +17,7 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>COD</th>
                                 <th>CLIENTE</th>
                                 <th>F. INICIO</th>
                                 <th>F. FIN</th>

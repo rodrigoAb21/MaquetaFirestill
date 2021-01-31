@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
     Route::get('herramientas/listaBajas','HerramientaController@listaBajas');
     Route::get('herramientas/listaAsignaciones','HerramientaController@listaAsignaciones');
     Route::get('herramientas/nuevaAsignacion','HerramientaController@nuevaAsignacion');
+    Route::get('herramientas/reingreso','HerramientaController@reingreso');
 
 
     Route::get('inventario/listaPrincipal','InventarioController@listaPrincipal');

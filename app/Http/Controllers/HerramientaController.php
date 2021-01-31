@@ -36,4 +36,11 @@ class HerramientaController extends Controller
         return view('vistas.herramientas.nuevaAsignacion');
     }
 
+    public function reingreso()
+    {
+        return view('vistas.herramientas.reingreso');
+    }
+
+
+
 }

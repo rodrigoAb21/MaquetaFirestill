@@ -15,7 +15,7 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>ID</th>
+                                <th>COD</th>
                                 <th>NOMBRE</th>
                                 <th>CATEGORIA</th>
                                 <th>PROVEEDOR</th>
