@@ -15,4 +15,9 @@ class VentaController extends Controller
     {
         return view('vistas.ventas.create');
     }
+
+    public function show($id)
+    {
+        return view('vistas.ventas.show');
+    }
 }

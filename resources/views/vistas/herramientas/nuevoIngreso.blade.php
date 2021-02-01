@@ -104,7 +104,6 @@
 
             function agregar() {
                 cantidad = $('#cantidad').val();
-                console.log(cantidad);
                 if(cont>=0 && cantidad != null && cantidad > 0) {
                     nombreInsumo = $('#selectorInsumo option:selected').text();
                     var fila =
