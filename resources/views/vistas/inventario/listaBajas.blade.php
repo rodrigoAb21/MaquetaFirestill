@@ -11,6 +11,10 @@
                         </div>
                     </h2>
 
+                    <div class="mb-3">
+                        <input class="form-control" placeholder="Buscar..." type="text">
+                    </div>
+
                     <div class="table-responsive">
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
