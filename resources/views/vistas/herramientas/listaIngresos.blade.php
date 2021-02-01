@@ -36,6 +36,9 @@
 
 
                                 <td class="text-center">
+                                    <a class="btn btn-info" href="{{url('herramientas/verIngreso')}}" title="Ver">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -46,6 +49,9 @@
                                 <td>14-ENE-2020</td>
 
                                 <td class="text-center">
+                                    <a class="btn btn-info" href="{{url('herramientas/verIngreso')}}" title="Ver">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -56,6 +62,9 @@
                                 <td>04-FEB-2020</td>
 
                                 <td class="text-center">
+                                    <a class="btn btn-info" href="{{url('herramientas/verIngreso')}}" title="Ver">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>

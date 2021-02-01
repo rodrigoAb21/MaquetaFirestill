@@ -21,6 +21,8 @@
                             <tr>
                                 <th class="text-center">COD</th>
                                 <th class="text-center">NOMBRE</th>
+                                <th class="text-center">RESPONSABLE</th>
+                                <th class="text-center">CANT</th>
                                 <th class="text-center">FECHA</th>
                                 <th class="text-center">MOTIVO</th>
                                 <th class="text-center">OPC</th>
@@ -29,7 +31,9 @@
                             <tbody>
                             <tr class="text-center">
                                 <td>1</td>
-                                <td>Llave combinada 12</td>
+                                <td>Herramienta 5</td>
+                                <td>Empleado 4</td>
+                                <td>1</td>
                                 <td>10-DIC-2020</td>
                                 <td>Extraviada</td>
                                 <td>
@@ -40,7 +44,9 @@
                             </tr>
                             <tr class="text-center">
                                 <td>2</td>
-                                <td>Llave Cruz</td>
+                                <td>Herramienta 7</td>
+                                <td>Empleado 2</td>
+                                <td>1</td>
                                 <td>13-NOV-2020</td>
                                 <td>Dañada</td>
                                 <td>
@@ -51,7 +57,9 @@
                             </tr>
                             <tr class="text-center">
                                 <td>3</td>
-                                <td>Desaramador estrella</td>
+                                <td>Herramienta 15</td>
+                                <td>Empleado 3</td>
+                                <td>2</td>
                                 <td>30-OCT-2020</td>
                                 <td>Extraviado</td>
                                 <td>

@@ -35,6 +35,9 @@
                                 <td>Empleado 1</td>
                                 <td>Activo</td>
                                 <td class="text-center">
+                                    <a class="btn btn-secondary" href="{{url('herramientas/verAsignacion')}}" title="Reingreso">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <a class="btn btn-info" href="{{url('herramientas/reingreso')}}" title="Reingreso">
                                         <i class="fa fa-sign-in-alt"></i>
                                     </a>
@@ -50,6 +53,9 @@
                                 <td>Empleado 3</td>
                                 <td>Activo</td>
                                 <td class="text-center">
+                                    <a class="btn btn-secondary" href="{{url('herramientas/verAsignacion')}}" title="Reingreso">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <a class="btn btn-info" href="{{url('herramientas/reingreso')}}" title="Reingreso">
                                         <i class="fa fa-sign-in-alt"></i>
                                     </a>
@@ -65,6 +71,9 @@
                                 <td>Empleado 4</td>
                                 <td>Finalizado</td>
                                 <td class="text-center">
+                                    <a class="btn btn-secondary" href="{{url('herramientas/verAsignacion')}}" title="Reingreso">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <a class="btn btn-info" href="{{url('herramientas/reingreso')}}" title="Reingreso">
                                         <i class="fa fa-sign-in-alt"></i>
                                     </a>

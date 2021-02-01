@@ -115,7 +115,7 @@
                         '</button>' +
                         '</td>' +
                         '<td>' +
-                        '   <input class="form-control" name="ewtew" value="'+nombreInsumo+'">'+
+                        '   <input class="form-control" name="ewtew" readonly value="'+nombreInsumo+'">'+
                         '</td>' +
                         '<td>' +
                         '   <input class="form-control" type="number" value="'+cantidad+'">'+

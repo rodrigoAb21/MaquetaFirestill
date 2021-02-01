@@ -28,6 +28,8 @@ Route::middleware('auth')->group(function () {
 
     Route::get('herramientas/listaPrincipal','HerramientaController@listaPrincipal');
     Route::get('herramientas/listaIngresos','HerramientaController@listaIngresos');
+    Route::get('herramientas/verIngreso','HerramientaController@verIngreso');
+    Route::get('herramientas/verAsignacion','HerramientaController@verAsignacion');
     Route::get('herramientas/nuevoIngreso','HerramientaController@nuevoIngreso');
     Route::get('herramientas/listaBajas','HerramientaController@listaBajas');
     Route::get('herramientas/listaAsignaciones','HerramientaController@listaAsignaciones');
