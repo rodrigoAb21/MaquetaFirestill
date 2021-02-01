@@ -25,4 +25,9 @@ class InventarioController extends Controller
     {
         return view('vistas.inventario.listaBajas');
     }
+
+    public function verIngreso()
+    {
+        return view('vistas.inventario.verIngreso');
+    }
 }

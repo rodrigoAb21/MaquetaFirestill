@@ -19,95 +19,75 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>COD</th>
-                                <th>NOMBRE</th>
-                                <th>CATEGORIA</th>
-                                <th>PROVEEDOR</th>
-                                <th>PRECIO</th>
-
-                                <th class="text-center w-25">OPC</th>
+                                <th class="text-center">COD</th>
+                                <th class="text-center">IMG</th>
+                                <th class="text-center">NOMBRE</th>
+                                <th class="text-center">CATEGORIA</th>
+                                <th class="text-center">PROVEEDOR</th>
+                                <th class="text-center">OPC</th>
                             </tr>
                             </thead>
                             <tbody>
 
+                            <tr class="text-center">
+                                <td class="align-middle">1</td>
+                                <td class="align-middle"><img src="{{asset('img/default.png')}}" class="img-thumbnail" width="100px"></td>
+                                <td class="align-middle">Producto 1</td>
+                                <td class="align-middle">Categoria 2</td>
+                                <td class="align-middle">Proveedor 1</td>
 
-                            <tr>
-                                <td>1</td>
-                                <td>Producto 1 </td>
-                                <td>Categoria 2</td>
-                                <td>Proveedor 1</td>
-                                <td>20 Bs</td>
-
-
-                                <td class="text-center">
-
+                                <td  class="align-middle" class="text-center">
+                                    <a class="btn btn-info" href="{{url('inventario/verProducto')}}" title="Ver">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button class="btn btn-warning">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
-                                        <i class="fa fa-times"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Producto 1 </td>
-                                <td>Categoria 2</td>
-                                <td>Proveedor 1</td>
-                                <td>20 Bs</td>
-
-
-                                <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
-                                        <i class="fa fa-times"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Producto 1 </td>
-                                <td>Categoria 2</td>
-                                <td>Proveedor 1</td>
-                                <td>20 Bs</td>
-
-
-                                <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
-                                        <i class="fa fa-times"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Producto 1 </td>
-                                <td>Categoria 2</td>
-                                <td>Proveedor 1</td>
-                                <td>20 Bs</td>
-
-
-                                <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
 
+                            <tr class="text-center">
+                                <td class="align-middle">2</td>
+                                <td class="align-middle"><img src="{{asset('img/default.png')}}" class="img-thumbnail" width="100px"></td>
+                                <td class="align-middle">Producto 2</td>
+                                <td class="align-middle">Categoria 5</td>
+                                <td class="align-middle">Proveedor 1</td>
+
+                                <td  class="align-middle" class="text-center">
+                                    <a class="btn btn-info" href="{{url('inventario/verProducto')}}" title="Ver">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
+
+                            <tr class="text-center">
+                                <td class="align-middle">3</td>
+                                <td class="align-middle"><img src="{{asset('img/default.png')}}" class="img-thumbnail" width="100px"></td>
+                                <td class="align-middle">Producto 3</td>
+                                <td class="align-middle">Categoria 1</td>
+                                <td class="align-middle">Proveedor 2</td>
+
+                                <td  class="align-middle" class="text-center">
+                                    <a class="btn btn-info" href="{{url('inventario/verProducto')}}" title="Ver">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                    <button class="btn btn-warning">
+                                        <i class="fa fa-pen"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
+                            </tr>
 
                             </tbody>
                         </table>
