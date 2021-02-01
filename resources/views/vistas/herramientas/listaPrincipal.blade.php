@@ -22,7 +22,6 @@
                                 <th class="text-center">TALLER</th>
                                 <th class="text-center">ASIGNADAS</th>
                                 <th class="text-center">TOTAL</th>
-
                                 <th class="text-center">OPC</th>
                             </tr>
                             </thead>
@@ -36,12 +35,14 @@
 
 
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
+                                    <button class="btn btn-warning" title="Editar">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
+                                    <button type="button" class="btn btn-dark" onclick="modalBaja()" title="Dar de baja">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h',
+                                    'herramientas')" title="Eliminar">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
@@ -55,12 +56,14 @@
 
 
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
+                                    <button class="btn btn-warning" title="Editar">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
+                                    <button type="button" class="btn btn-dark" onclick="modalBaja()" title="Dar de baja">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h',
+                                    'herramientas')"  title="Eliminar">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
@@ -74,17 +77,17 @@
 
 
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
+                                    <button class="btn btn-warning" title="Editar">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
+                                    <button type="button" class="btn btn-dark" onclick="modalBaja()" title="Dar de baja">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h',
+                                    'herramientas')"  title="Eliminar">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
-                            </tr>
-
                             </tbody>
                         </table>
 
@@ -103,15 +106,19 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p id="modalEliminarEnunciado">¿Está seguro que desea dar de baja esta herramienta?</p>
+                    <p>¿Está seguro que desea dar de baja esta herramienta?</p>
                     <div class="form-group">
                         <label for="">Responsable de la baja</label>
-                        <select class="form-control" name="" id="">
+                        <select class="form-control">
                             <option value="">Empleado 1</option>
                             <option value="">Empleado 2</option>
                             <option value="">Empleado 3</option>
                             <option value="">Empleado 4</option>
                         </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Cantidad</label>
+                        <input type="text" class="form-control" id="">
                     </div>
                     <div class="form-group">
                         <label for="">Motivo</label>
@@ -126,11 +133,20 @@
             </div>
         </div>
     </div>
+    @include('vistas.modal')
     @push('scripts')
         <script>
 
-            function modalEliminar(nombre, url) {
+            function modalBaja() {
                 $('#modalBaja').modal('show');
+            }
+
+            function modalEliminar(nombre, url) {
+                $('#modalEliminarForm').attr("action", url);
+                $('#metodo').val("delete");
+                $('#modalEliminarTitulo').html("Eliminar");
+                $('#modalEliminarEnunciado').html("Realmente lo desea eliminar?");
+                $('#modalEliminar').modal('show');
             }
 
         </script>

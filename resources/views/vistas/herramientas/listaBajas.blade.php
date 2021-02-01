@@ -15,48 +15,46 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>COD</th>
-                                <th>NOMBRE</th>
-                                <th>COSTO</th>
-                                <th>FECHA</th>
-                                <th>MOTIVO</th>
-
-
+                                <th class="text-center">COD</th>
+                                <th class="text-center">NOMBRE</th>
+                                <th class="text-center">FECHA</th>
+                                <th class="text-center">MOTIVO</th>
+                                <th class="text-center">OPC</th>
                             </tr>
                             </thead>
                             <tbody>
-
-
-                            <tr>
+                            <tr class="text-center">
                                 <td>1</td>
                                 <td>Llave combinada 12</td>
-
-                                <td>20 Bs</td>
                                 <td>10-DIC-2020</td>
                                 <td>Extraviada</td>
-
-
+                                <td>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>2</td>
                                 <td>Llave Cruz</td>
-
-                                <td>45 Bs</td>
                                 <td>13-NOV-2020</td>
                                 <td>Dañada</td>
-
-
+                                <td>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>3</td>
                                 <td>Desaramador estrella</td>
-
-                                <td>10 Bs</td>
                                 <td>30-OCT-2020</td>
                                 <td>Extraviado</td>
-
-
-
+                                <td>
+                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
+                                        <i class="fa fa-times"></i>
+                                    </button>
+                                </td>
                             </tr>
 
                             </tbody>

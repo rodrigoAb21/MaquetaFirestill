@@ -27,11 +27,11 @@
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Asignar a </label>
+                                <label>Responsable</label>
                                 <select class="form-control">
-                                    <option value="Juan Perez">Juan Perez</option>
-                                    <option value="Esteban Choque">Esteban Choque</option>
-                                    <option value="Daniel Mendoza">Daniel Mendoza</option>
+                                    <option>Empleado 1</option>
+                                    <option>Empleado 2</option>
+                                    <option>Empleado 3</option>
 
                                 </select>
                             </div>
@@ -40,24 +40,23 @@
                     <hr>
 
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Herramienta</label>
                                 <select class="form-control selectpicker" data-live-search="true" id="selectorInsumo">
-                                    <option value="Llave Combinada 14">Llave Combinada 14</option>
-                                    <option value="Desarmador Plano">Desarmador Plano</option>
-                                    <option value="Cinsel">Cinsel</option>
-                                    <option value="LLave Crece">LLave Crece</option>
-
+                                    <option>Herramienta 1</option>
+                                    <option>Herramienta 2</option>
+                                    <option>Herramienta 3</option>
                                 </select>
                             </div>
                         </div>
-
-
-
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="form-group">
+                                <input class="form-control" placeholder="Cantidad" type="number" id="cantidad">
+                            </div>
+                        </div>
 
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <div class="form-group">
                                 <button id="btn_agregar" type="button" onclick="agregar()"  class="btn btn-success btn-sm btn-block">
                                     <span class="fa fa-plus fa-2x"></span>
                                 </button>
@@ -71,7 +70,7 @@
                             <tr>
                                 <th class="text-right">OPC</th>
                                 <th class="text-center w-50">HERRAMIENTA</th>
-                                <th class="text-center">OBS</th>
+                                <th class="text-center">CANTIDAD</th>
                             </tr>
                             </thead>
                             <tbody id="detalle">
@@ -95,7 +94,9 @@
             var cont = 0;
 
             function agregar() {
-                if(cont>=0) {
+                cantidad = $('#cantidad').val();
+                console.log(cantidad);
+                if(cont>=0 && cantidad != null && cantidad > 0) {
                     nombreInsumo = $('#selectorInsumo option:selected').text();
                     var fila =
                         '<tr id="fila' + cont + '">' +
@@ -108,24 +109,18 @@
                         '   <input class="form-control" name="ewtew" value="'+nombreInsumo+'">'+
                         '</td>' +
                         '<td>' +
-                        '   <input class="form-control" type="number" name="qweqw" >'+
+                        '   <input class="form-control" type="number" value="'+cantidad+'">'+
                         '</td>' +
                         '</tr>';
-
-
                     cont++;
-
-
                     $("#detalle").append(fila); // sirve para anhadir una fila a los detalles
 
                 }
-
+                $('#cantidad').val("");
             }
 
             function quitar(index){
-
                 cont--;
-
                 $("#fila" + index).remove();
             }
 

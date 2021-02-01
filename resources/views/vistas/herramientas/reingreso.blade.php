@@ -23,11 +23,9 @@
                             </div>
                         </div>
 
-
-
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
-                                <label>Asignar a </label>
+                                <label>Responsable</label>
                                 <input class="form-control" type="text" readonly value="Empleado 1">
                             </div>
                         </div>
@@ -38,21 +36,30 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th class="text-center">HERRAMIENTA</th>
+                                <th class="text-center w-50">HERRAMIENTA</th>
+                                <th class="text-center">ASIGNADA</th>
                                 <th class="text-center">DEVUELTA</th>
-                                <th class="text-center">OBS</th>
+                                <th class="text-center w-50">MOTIVO BAJA</th>
                             </tr>
                             </thead>
                             <tbody id="detalle">
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                            <tr class="text-center">
+                                <td>Herramienta 1</td>
+                                <td>10</td>
+                                <td><input class="form-control" type="number" value="10"></td>
+                                <td><input class="form-control" type="text"></td>
                             </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                            <tr class="text-center">
+                                <td>Herramienta 2</td>
+                                <td>4</td>
+                                <td><input class="form-control" type="number" value="2"></td>
+                                <td><input class="form-control" type="text"></td>
+                            </tr>
+                            <tr class="text-center">
+                                <td>Herramienta 3</td>
+                                <td>1</td>
+                                <td><input class="form-control" type="number" value="1"></td>
+                                <td><input class="form-control" type="text"></td>
                             </tr>
                             </tbody>
                         </table>

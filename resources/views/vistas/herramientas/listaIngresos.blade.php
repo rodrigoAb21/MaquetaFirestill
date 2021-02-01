@@ -17,9 +17,8 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>COD</th>
-                                <th>FECHA</th>
-                                <th>OBSERVACION</th>
+                                <th class="text-center">COD</th>
+                                <th class="text-center">FECHA</th>
 
                                 <th class="text-center w-25">OPC</th>
                             </tr>
@@ -27,52 +26,32 @@
                             <tbody>
 
 
-                            <tr>
+                            <tr class="text-center">
                                 <td>1</td>
                                 <td>04-ENE-2020</td>
-                                <td>Ninguna</td>
 
 
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>2</td>
                                 <td>14-ENE-2020</td>
-                                <td>Ninguna</td>
-
 
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>3</td>
                                 <td>04-FEB-2020</td>
-                                <td>Ninguna</td>
-
 
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>

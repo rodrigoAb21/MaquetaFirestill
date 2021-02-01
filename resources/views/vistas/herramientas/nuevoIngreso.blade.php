@@ -48,11 +48,24 @@
                         </div>
                     </div>
                     <hr>
-
                     <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <div class="form-group">
+                                <select class="form-control selectpicker" data-live-search="true" id="selectorInsumo">
+                                    <option>Herramienta 1</option>
+                                    <option>Herramienta 2</option>
+                                    <option>Herramienta 3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <input class="form-control" placeholder="Cantidad" type="number" id="cantidad">
+                            </div>
+                        </div>
 
+                        <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                            <div class="form-group">
                                 <button id="btn_agregar" type="button" onclick="agregar()"  class="btn btn-success btn-sm btn-block">
                                     <span class="fa fa-plus fa-2x"></span>
                                 </button>
@@ -65,9 +78,8 @@
                             <thead>
                             <tr>
                                 <th class="text-right">OPC</th>
-                                <th class="text-center w-50">INSUMO</th>
-                                <th class="text-center">CANT</th>
-                                <th class="text-center">COSTO U. Bs</th>
+                                <th class="text-center w-50">HERRAMIENTA</th>
+                                <th class="text-center">CANTIDAD</th>
                             </tr>
                             </thead>
                             <tbody id="detalle">
@@ -76,8 +88,8 @@
 
                     </div>
 
-                    <a href="{{url('herramientas/listaIngresos')}}" class="btn btn-warning">Atras</a>
-                    <a href="{{url('herramientas/listaIngresos')}}" class="btn btn-info">Guardar</a>
+                    <a href="{{url('herramientas/listaAsignaciones')}}" class="btn btn-warning">Atras</a>
+                    <a href="{{url('herramientas/listaAsignaciones')}}" class="btn btn-info">Guardar</a>
 
                 </div>
             </div>
@@ -89,9 +101,12 @@
     @push('scripts')
         <script>
             var cont = 0;
-            function agregar() {
-                if(cont>=0) {
 
+            function agregar() {
+                cantidad = $('#cantidad').val();
+                console.log(cantidad);
+                if(cont>=0 && cantidad != null && cantidad > 0) {
+                    nombreInsumo = $('#selectorInsumo option:selected').text();
                     var fila =
                         '<tr id="fila' + cont + '">' +
                         '<td>' +
@@ -100,30 +115,21 @@
                         '</button>' +
                         '</td>' +
                         '<td>' +
-                        '   <input class="form-control" name="ewtew" >'+
+                        '   <input class="form-control" name="ewtew" value="'+nombreInsumo+'">'+
                         '</td>' +
                         '<td>' +
-                        '   <input class="form-control" type="number" name="qweqw" >'+
-                        '</td>' +
-                        '<td>' +
-                        '   <input class="form-control" name="asd" >'+
+                        '   <input class="form-control" type="number" value="'+cantidad+'">'+
                         '</td>' +
                         '</tr>';
-
-
                     cont++;
-
-
                     $("#detalle").append(fila); // sirve para anhadir una fila a los detalles
 
                 }
-
+                $('#cantidad').val("");
             }
 
             function quitar(index){
-
                 cont--;
-
                 $("#fila" + index).remove();
             }
 
