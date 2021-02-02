@@ -51,7 +51,7 @@
 
                             <tr class="text-center">
                                 <td class="align-middle">2</td>
-                                <td class="align-middle"><img src="{{asset('img/default.png')}}" class="img-thumbnail" width="100px"></td>
+                                <td class="align-middle"><img src="{{asset('img/default.png')}}" class="img-thumbnail" width="100px" height="100px"></td>
                                 <td class="align-middle">Producto 2</td>
                                 <td class="align-middle">Categoria 5</td>
                                 <td class="align-middle">Proveedor 1</td>

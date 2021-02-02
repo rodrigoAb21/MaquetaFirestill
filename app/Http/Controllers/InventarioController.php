@@ -30,4 +30,9 @@ class InventarioController extends Controller
     {
         return view('vistas.inventario.verIngreso');
     }
+
+    public function verProducto()
+    {
+        return view('vistas.inventario.verProducto');
+    }
 }

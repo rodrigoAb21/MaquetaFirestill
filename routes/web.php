@@ -42,6 +42,7 @@ Route::middleware('auth')->group(function () {
     Route::get('inventario/listaIngresos','InventarioController@listaIngresos');
     Route::get('inventario/nuevoIngreso','InventarioController@nuevoIngreso');
     Route::get('inventario/verIngreso','InventarioController@verIngreso');
+    Route::get('inventario/verProducto','InventarioController@verProducto');
     Route::get('inventario/listaBajas','InventarioController@listaBajas');
 
 

@@ -21,18 +21,18 @@
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
-                                <th>COD</th>
-                                <th>FECHA</th>
-                                <th>PROVEEDOR</th>
-                                <th>TOTAL BS</th>
+                                <th class="text-center">COD</th>
+                                <th class="text-center">FECHA</th>
+                                <th class="text-center">PROVEEDOR</th>
+                                <th class="text-center">TOTAL BS</th>
 
-                                <th class="text-center w-25">OPC</th>
+                                <th class="text-center">OPC</th>
                             </tr>
                             </thead>
                             <tbody>
 
 
-                            <tr>
+                            <tr class="text-center">
                                 <td>1</td>
                                 <td>04-ENE-2020</td>
                                 <td>FERROTODO</td>
@@ -50,7 +50,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>2</td>
                                 <td>14-ENE-2020</td>
                                 <td>ANGLARIL</td>
@@ -68,7 +68,7 @@
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <td>3</td>
                                 <td>04-FEB-2020</td>
                                 <td>AGSA</td>
