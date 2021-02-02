@@ -37,7 +37,7 @@
                                 <td class="align-middle">Proveedor 1</td>
 
                                 <td  class="align-middle" class="text-center">
-                                    <a class="btn btn-info" href="{{url('inventario/verProducto')}}" title="Ver">
+                                    <a class="btn btn-secondary" href="{{url('inventario/verProducto')}}" title="Ver">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button class="btn btn-warning">
@@ -57,7 +57,7 @@
                                 <td class="align-middle">Proveedor 1</td>
 
                                 <td  class="align-middle" class="text-center">
-                                    <a class="btn btn-info" href="{{url('inventario/verProducto')}}" title="Ver">
+                                    <a class="btn btn-secondary" href="{{url('inventario/verProducto')}}" title="Ver">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button class="btn btn-warning">
@@ -77,7 +77,7 @@
                                 <td class="align-middle">Proveedor 2</td>
 
                                 <td  class="align-middle" class="text-center">
-                                    <a class="btn btn-info" href="{{url('inventario/verProducto')}}" title="Ver">
+                                    <a class="btn btn-secondary" href="{{url('inventario/verProducto')}}" title="Ver">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button class="btn btn-warning">

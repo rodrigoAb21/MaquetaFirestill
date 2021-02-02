@@ -32,7 +32,7 @@
                             <tbody>
                             <tr class="text-center">
                                 <td>1</td>
-                                <td>Llave combinada 12</td>
+                                <td>Herramienta 1</td>
                                 <td>8</td>
                                 <td>2</td>
                                 <td>10</td>
@@ -53,7 +53,7 @@
                             </tr>
                             <tr class="text-center">
                                 <td>2</td>
-                                <td>Llave Cruz</td>
+                                <td>Herramienta 2</td>
                                 <td>2</td>
                                 <td>2</td>
                                 <td>4</td>
@@ -74,7 +74,7 @@
                             </tr>
                             <tr class="text-center">
                                 <td>3</td>
-                                <td>Desaramador estrella</td>
+                                <td>Herramienta 3</td>
                                 <td>12</td>
                                 <td>0</td>
                                 <td>12</td>

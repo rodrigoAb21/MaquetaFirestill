@@ -23,7 +23,6 @@
                             <tr>
                                 <th class="text-center">COD</th>
                                 <th class="text-center">FECHA</th>
-
                                 <th class="text-center w-25">OPC</th>
                             </tr>
                             </thead>
@@ -36,7 +35,7 @@
 
 
                                 <td class="text-center">
-                                    <a class="btn btn-info" href="{{url('herramientas/verIngreso')}}" title="Ver">
+                                    <a class="btn btn-secondary" href="{{url('herramientas/verIngreso')}}" title="Ver">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
@@ -49,7 +48,7 @@
                                 <td>14-ENE-2020</td>
 
                                 <td class="text-center">
-                                    <a class="btn btn-info" href="{{url('herramientas/verIngreso')}}" title="Ver">
+                                    <a class="btn btn-secondary" href="{{url('herramientas/verIngreso')}}" title="Ver">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
@@ -62,7 +61,7 @@
                                 <td>04-FEB-2020</td>
 
                                 <td class="text-center">
-                                    <a class="btn btn-info" href="{{url('herramientas/verIngreso')}}" title="Ver">
+                                    <a class="btn btn-secondary" href="{{url('herramientas/verIngreso')}}" title="Ver">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">

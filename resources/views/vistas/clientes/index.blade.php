@@ -38,15 +38,13 @@
                                 <td>79896598</td>
                                 <td class="text-center">
                                     <a href="{{url('clientes/1')}}">
-                                        <button class="btn btn-info">
+                                        <button class="btn btn-secondary">
                                             <i class="fa fa-eye"></i>
                                         </button>
                                     </a>
-
                                     <button class="btn btn-warning">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'clientes')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -60,7 +58,7 @@
 
                                 <td class="text-center">
                                     <a href="{{url('clientes/1')}}">
-                                        <button class="btn btn-info">
+                                        <button class="btn btn-secondary">
                                             <i class="fa fa-eye"></i>
                                         </button>
                                     </a>

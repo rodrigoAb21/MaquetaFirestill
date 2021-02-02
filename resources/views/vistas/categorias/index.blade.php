@@ -12,34 +12,27 @@
                             </a>
                         </div>
                     </h2>
-
                     <div class="mb-3">
                         <input class="form-control" placeholder="Buscar..." type="text">
                     </div>
-
                     <div class="table-responsive">
                         <table class="table table-hover table-bordered color-table info-table">
                             <thead>
                             <tr>
                                 <th>COD</th>
                                 <th>NOMBRE</th>
-
-
                                 <th class="text-center w-25">OPC</th>
                             </tr>
                             </thead>
-                            <tbody>
 
+                            <tbody>
                             <tr>
                                 <td>1</td>
-                                <td>Cilindros</td>
-
+                                <td>Categoria 1</td>
                                 <td class="text-center">
-
                                     <button class="btn btn-warning">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -47,54 +40,19 @@
                             </tr>
                             <tr>
                                 <td>2</td>
-                                <td>Manometro</td>
-
+                                <td>Categoria 2</td>
                                 <td class="text-center">
-
                                     <button class="btn btn-warning">
                                         <i class="fa fa-pen"></i>
                                     </button>
-
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
                                         <i class="fa fa-times"></i>
                                     </button>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Quimicos</td>
-
-                                <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
-                                        <i class="fa fa-times"></i>
-                                    </button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>4</td>
-                                <td>Mangueras</td>
-
-                                <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
-                                    <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'h')">
-                                        <i class="fa fa-times"></i>
-                                    </button>
-                                </td>
-                            </tr>
-
-
                             </tbody>
-                        </table>
 
+                        </table>
                     </div>
                 </div>
             </div>
@@ -103,7 +61,6 @@
     @include('vistas.modal')
     @push('scripts')
         <script>
-
             function modalEliminar(nombre, url) {
                 $('#modalEliminarForm').attr("action", url);
                 $('#metodo').val("delete");
@@ -111,8 +68,6 @@
                 $('#modalEliminarEnunciado').html("Realmente lo desea eliminar?");
                 $('#modalEliminar').modal('show');
             }
-
         </script>
-
     @endpush()
 @endsection

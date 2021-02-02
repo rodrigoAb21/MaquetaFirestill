@@ -37,7 +37,7 @@
                                 <td>proveedor1@mail.com</td>
                                 <td class="text-center">
                                     <a href="{{url('proveedores/1')}}">
-                                        <button class="btn btn-info">
+                                        <button class="btn btn-secondary">
                                             <i class="fa fa-eye"></i>
                                         </button>
                                     </a>
@@ -56,7 +56,7 @@
                                 <td>proveedor2@mail.com</td>
                                 <td class="text-center">
                                     <a href="{{url('proveedores/1')}}">
-                                        <button class="btn btn-info">
+                                        <button class="btn btn-secondary">
                                             <i class="fa fa-eye"></i>
                                         </button>
                                     </a>
@@ -75,7 +75,7 @@
                                 <td>proveedor3@mail.com</td>
                                 <td class="text-center">
                                     <a href="{{url('proveedores/1')}}">
-                                        <button class="btn btn-info">
+                                        <button class="btn btn-secondary">
                                             <i class="fa fa-eye"></i>
                                         </button>
                                     </a>

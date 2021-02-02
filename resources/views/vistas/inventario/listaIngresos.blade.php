@@ -35,11 +35,11 @@
                             <tr class="text-center">
                                 <td>1</td>
                                 <td>04-ENE-2020</td>
-                                <td>FERROTODO</td>
+                                <td>Proveedor X</td>
                                 <td>956</td>
 
                                 <td class="text-center">
-                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-info">
+                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-secondary">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
@@ -50,11 +50,11 @@
                             <tr class="text-center">
                                 <td>2</td>
                                 <td>14-ENE-2020</td>
-                                <td>ANGLARIL</td>
+                                <td>Proveedor X</td>
                                 <td>784</td>
 
                                 <td class="text-center">
-                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-info">
+                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-secondary">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
@@ -65,11 +65,11 @@
                             <tr class="text-center">
                                 <td>3</td>
                                 <td>04-FEB-2020</td>
-                                <td>AGSA</td>
+                                <td>Proveedor X</td>
                                 <td>250</td>
 
                                 <td class="text-center">
-                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-info">
+                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-secondary">
                                         <i class="fa fa-eye"></i>
                                     </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
