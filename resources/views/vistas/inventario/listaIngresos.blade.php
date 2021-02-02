@@ -38,13 +38,10 @@
                                 <td>FERROTODO</td>
                                 <td>956</td>
 
-
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
+                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-info">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -56,13 +53,10 @@
                                 <td>ANGLARIL</td>
                                 <td>784</td>
 
-
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
+                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-info">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>
@@ -74,13 +68,10 @@
                                 <td>AGSA</td>
                                 <td>250</td>
 
-
                                 <td class="text-center">
-
-                                    <button class="btn btn-warning">
-                                        <i class="fa fa-pen"></i>
-                                    </button>
-
+                                    <a href="{{url('inventario/verIngreso')}}" class="btn btn-info">
+                                        <i class="fa fa-eye"></i>
+                                    </a>
                                     <button type="button" class="btn btn-danger" onclick="modalEliminar('h', 'herramientas')">
                                         <i class="fa fa-times"></i>
                                     </button>

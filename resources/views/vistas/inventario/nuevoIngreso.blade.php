@@ -42,11 +42,10 @@
                             <div class="form-group">
                                 <label>Proveedor</label>
                                 <select class="form-control">
-                                    <option value="">ANGLARIL</option>
-                                    <option value="">FANACIM</option>
-                                    <option value="">AGSA</option>
-                                    <option value="">MELISAM</option>
-
+                                    <option value="">Proveedor 1</option>
+                                    <option value="">Proveedor 2</option>
+                                    <option value="">Proveedor 3</option>
+                                    <option value="">Proveedor 4</option>
                                 </select>
                             </div>
                         </div>
@@ -72,13 +71,25 @@
                             <thead>
                             <tr>
                                 <th class="text-right">OPC</th>
-                                <th class="text-center w-50">PRODUCTO</th>
+                                <th class="text-center w-25">PRODUCTO</th>
+                                <th class="text-center w-25">CATEGORIA</th>
                                 <th class="text-center">CANT</th>
-                                <th class="text-center">P. UNITARIO Bs</th>
+                                <th class="text-center">COSTO U. Bs</th>
+                                <th class="text-center">SUBTOTAL</th>
                             </tr>
                             </thead>
                             <tbody id="detalle">
                             </tbody>
+                            <tfoot>
+                            <tr class="text-center">
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><b>TOTAL</b></td>
+                                <td><span id="total">XXX</span> Bs</td>
+                            </tr>
+                            </tfoot>
                         </table>
 
                     </div>
@@ -110,10 +121,20 @@
                         '   <input class="form-control" name="ewtew" >'+
                         '</td>' +
                         '<td>' +
+                        ' <select class="form-control">'+
+                        '<option>Categoria 1</option>'+
+                        '<option>Categoria 2</option>'+
+                        '<option>Categoria 3</option>'+
+                        '<option>Categoria 4</option>'+
+                        '</select>'+
+                        '</td>' +
+                        '<td>' +
                         '   <input class="form-control" type="number" name="qweqw" >'+
                         '</td>' +
                         '<td>' +
                         '   <input class="form-control" name="asd" >'+
+                        '</td>' +
+                        '<td>' +
                         '</td>' +
                         '</tr>';
 

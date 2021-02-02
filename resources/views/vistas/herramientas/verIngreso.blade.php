@@ -43,7 +43,7 @@
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <div class="form-group">
-                                    <img src="{{asset('img/factura.jpg')}}" class="img-thumbnail" width="200px" alt="">
+                                    <img src="{{asset('img/factura.jpg')}}" class="img-thumbnail" height="200px" width="200px" alt="">
                                 </div>
                             </div>
                         </div>
