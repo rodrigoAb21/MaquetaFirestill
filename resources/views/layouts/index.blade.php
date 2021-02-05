@@ -47,7 +47,7 @@
                     <a class="navbar-brand ligh" href="{{url('/')}}">
                         <!-- Logo icon -->
                         <b class="light-logo">
-                            <i class="fa fa-fire-alt"></i>
+                            <i class="fa fa-fire-extinguisher"></i>
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
@@ -77,6 +77,24 @@
                         <!-- ============================================================== -->
                         <!-- Profile -->
                         <!-- ============================================================== -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url('notificaciones')}}">
+                                <i class="fas fa-bell"></i>
+                                <div class="notify">
+                                    <span class="heartbit"></span>
+                                    <span class="point"></span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{url('alertas')}}">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <div class="notify">
+                                    <span class="heartbit"></span>
+                                    <span class="point"></span>
+                                </div>
+                            </a>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{Auth::user()->nombre}}</a>
                             <div class="dropdown-menu dropdown-menu-right scale-up">
@@ -95,6 +113,7 @@
                                 </ul>
                             </div>
                         </li>
+
                     </ul>
                 </div>
             </nav>

@@ -24,6 +24,11 @@ Route::middleware('auth')->group(function () {
     Route::resource('clientes','ClienteController');
     Route::resource('categorias','CategoriaController');
 
+    Route::resource('notificaciones','NotificacionController');
+    Route::resource('alertas','AlertaController');
+
+
+
 
 
     Route::get('herramientas/listaPrincipal','HerramientaController@listaPrincipal');
